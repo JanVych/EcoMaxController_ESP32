@@ -1,2 +1,5 @@
-/.devcontainer
-/.vscode
+build/
+sdkconfig
+sdkconfig.old
+.vscode/
+.devcontainer/
