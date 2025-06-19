@@ -1,3 +1,5 @@
-idf_component_register(SRCS "eco_max.c"
+idf_component_register(SRCS "ecomax.c"
                     INCLUDE_DIRS "include"
-                    REQUIRES driver)
+                    REQUIRES driver
+                    REQUIRES esp_timer
+                    REQUIRES helper)
